@@ -1,0 +1,26 @@
+{
+  "name": "faceoff_visuals",
+  "version": "1.0.0",
+  "description": "faceOff_Visuals",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zootechdrum/FaceOff_Visulals.git"
+  },
+  "author": "Cesar Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zootechdrum/FaceOff_Visulals/issues"
+  },
+  "homepage": "https://github.com/zootechdrum/FaceOff_Visulals#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.1"
+  }
+}
