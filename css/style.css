@@ -15,25 +15,47 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
-  padding: 3rem;
+  padding: 0rem;
   box-sizing: border-box; }
 
-.header {
-  height: 95vh; }
+.nav {
+  height: 10vh; }
+
+.headers {
+  height: 90vh; }
 
 .bg-video {
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; }
+  height: 70%;
+  width: 100%;
+  overflow: hidden; }
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
 
+.nav__logo {
+  border-radius: 5px;
+  width: auto;
+  float: left;
+  margin-top: 20px; }
+
+.nav__main {
+  float: right;
+  list-style: none;
+  margin-top: 40px; }
+
+.nav__main li {
+  display: inline-block;
+  margin-left: 40px; }
+
+.nav__main a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.8rem; }
+
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }

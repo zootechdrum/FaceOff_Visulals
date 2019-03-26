@@ -1,0 +1,25 @@
+.nav{
+    &__logo{
+        border-radius:5px;
+        width: auto;
+        float:left;
+        margin-top: 20px;
+    }
+
+    &__main{
+        float:right;
+        list-style: none;
+        margin-top:40px;
+    }
+    &__main li{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    &__main a:link,
+    &__main a:visited{
+        text-decoration: none;
+        color:black;
+        text-transform: uppercase;
+        font-size:1.8rem;
+    }
+}
