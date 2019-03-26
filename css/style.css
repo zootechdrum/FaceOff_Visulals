@@ -51,10 +51,17 @@ body {
 
 .nav__main a:link,
 .nav__main a:visited {
+  padding: 8px 0;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s; }
+
+.nav__main a:hover,
+.nav__main a:active {
+  border-bottom: 2px solid black; }
 
 .row {
   max-width: 114rem;
