@@ -1,4 +1,18 @@
 .footer{
     text-align:center;
-    background-color: black;
+    background-color: $black-color;
+    font-size: 2rem;
+    padding: 3rem 0;
+
+    &__copyright  {
+        color:$white-color;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color:$white-color;
+        padding:1rem 0;
+        font-weight:100;
+    }
 }
