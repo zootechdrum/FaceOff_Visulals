@@ -14,7 +14,6 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: #777;
   padding: 0rem;
   box-sizing: border-box; }
 
@@ -23,6 +22,25 @@ body {
 
 .headers {
   height: 90vh; }
+
+.heading-secondary {
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 10px; }
+
+.paragraph {
+  font-size: 2rem;
+  line-height: 4rem;
+  letter-spacing: 0.3rem; }
+
+.u-text-center {
+  text-align: center !important; }
+
+.u-margin-top {
+  margin-top: 2rem; }
+
+.u-padding {
+  padding: 3rem; }
 
 .bg-video {
   height: 70%;
@@ -33,12 +51,17 @@ body {
     width: 100%;
     object-fit: cover; }
 
+.footer {
+  text-align: center;
+  background-color: black; }
+
 .nav__logo {
   border-radius: 5px;
   width: auto;
   height: 60px;
   float: left;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 1rem; }
 
 .nav__main {
   float: right;
@@ -57,7 +80,7 @@ body {
   text-transform: uppercase;
   font-size: 1.8rem;
   border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s; }
+  transition: border-bottom 0.7s; }
 
 .nav__main a:hover,
 .nav__main a:active {
