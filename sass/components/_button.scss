@@ -1,0 +1,16 @@
+.btn {
+    border:none;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: $default-font-size;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba($black-color, .2);
+    }
+
+    &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+    }
+}

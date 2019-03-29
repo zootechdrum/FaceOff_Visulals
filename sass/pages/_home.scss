@@ -1,3 +1,22 @@
 .section_about{
     margin-top:-20vh;
 }
+
+.section-book {
+    padding: 20rem 20rem;
+    background-image:linear-gradient(to right bottom, white, red);
+}
+
+.book{
+    text-align:center;
+    height: 44rem;
+    border-radius: 3px;
+
+    &__form{
+        margin: 0 auto;
+        width:50%;
+        padding: 6rem;
+        background-color:white;
+        box-shadow: 0 1.5rem 4rem rgba($black-color, .15);
+    }
+}
