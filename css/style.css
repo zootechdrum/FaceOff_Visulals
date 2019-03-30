@@ -47,6 +47,11 @@ body {
 .u-padding {
   padding: 3rem; }
 
+.card {
+  height: 52rem;
+  background-color: #fff;
+  padding: 3rem; }
+
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
@@ -92,7 +97,7 @@ body {
   font-size: 2rem;
   padding: 1.2rem 0 3rem; }
   .footer__copyright {
-    color: white; }
+    color: #fff; }
   .footer__icons {
     color: white;
     font-size: 3rem; }
@@ -102,7 +107,7 @@ body {
   .footer__link {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     padding: 1rem 0;
     font-weight: 100; }
 
@@ -169,6 +174,10 @@ body {
 .section-book {
   padding: 10rem 0 20rem;
   background-image: linear-gradient(to right bottom, white, red); }
+
+.section-services {
+  padding: 15rem 0 15rem 0;
+  background-color: #f4f7f6; }
 
 .book {
   text-align: center;
