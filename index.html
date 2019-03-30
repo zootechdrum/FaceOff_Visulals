@@ -74,23 +74,27 @@
                                                         </div>
                  
                                                         <div class="form__group">
-                                                                <input type="text" class="form__input" placeholder="Full Name" id="name" required> 
+                                                                <input type="text" name="name" class="form__input" placeholder="Full Name" id="name" required> 
                                                                 <label for="name" class="form__label">Full name</label>
                                                         </div>
                 
                                                         <div class="form__group">
-                                                                <input type="email" class="form__input" placeholder="Email address" id="email" required> 
+                                                                <input type="email" name="_replyto" class="form__input" placeholder="Email address" id="email" required> 
                                                                 <label for="email" class="form__label">Email Address</label>
                                                         </div>
                                                         <div class="form__group">
-                                                                <textarea class="form__text">
+                                                                <textarea  name="message" class="form__text">
 
                                                                 </textarea>
                                                                 <label for="message" class="form__label">Leave A Message</label>
                                                         </div> 
                                                     <div class="form__group">
-                                                        <button class="btn">Next step &rarr;</button>
+                                                        <button type="submit" value="Send" class="btn">Submit &rarr;</button>
                                                     </div>
+                                                    <input type="hidden" name="_subject" value="Contact form submitted">
+                                                    <!-- <input type="hidden" name="_after" value="https://myhomepage.net/"> -->
+                                                    <input type="hidden" name="_honeypot" value="">
+                                                    <input type="hidden" name="_confirmation" value="">
                                             </form>
                                         </div>
                                     </div>
