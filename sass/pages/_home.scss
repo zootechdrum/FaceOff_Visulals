@@ -3,12 +3,12 @@
 }
 
 .section-book {
-    padding: 10rem 0 20rem;
+    padding: 10rem 0 30rem;
     background-image:linear-gradient(to right bottom, white, red);
 }
 
 .section-services {
-    padding: 15rem 0 15rem 0;
+    padding: 10rem 0 15rem 0;
     background-color: #f4f7f6;
 }
 
@@ -18,7 +18,7 @@
     border-radius: 3px;
 
     &__form{
-        min-width: 400px;
+        min-width: 450px;
         margin: 0 auto;
         width:50%;
         padding: 6rem;
