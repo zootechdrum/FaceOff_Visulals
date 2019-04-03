@@ -1,3 +1,11 @@
+/*
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+*/
 *,
 *::after,
 *::before {
@@ -9,6 +17,15 @@ html {
   /*--Allows visually impaired users to chnage font size.*/
   font-size: 62.5%;
   zoom: 70%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   font-family: "Lato", sans-serif;
