@@ -216,6 +216,9 @@ body {
 .section-book {
   padding: 10rem 0 30rem;
   background-image: linear-gradient(to right bottom, white, red); }
+  @media (max-width: 56.25em) {
+    .section-book {
+      padding: 10 0 0 30rem; } }
 
 .section-services {
   padding: 10rem 0 15rem 0;
