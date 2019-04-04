@@ -57,6 +57,9 @@ body {
   line-height: 4rem;
   letter-spacing: 0.2rem;
   font-weight: 400; }
+  @media (max-width: 37.5em) {
+    .paragraph {
+      line-height: 2.5rem; } }
 
 .u-text-center {
   text-align: center !important; }
@@ -73,7 +76,13 @@ body {
 .card {
   height: 40rem;
   background-color: #fff;
-  padding: 3rem; }
+  padding: 3rem;
+  display: inline-block; }
+  .card--mod {
+    margin-left: 15.5rem; }
+    @media (max-width: 56.25em) {
+      .card--mod {
+        margin-left: 0; } }
   .card__heading {
     font-size: 3.0rem;
     text-align: center;
@@ -189,6 +198,12 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 6rem; } }
+  @media (max-width: 56.25em) {
+    .row {
+      max-width: 50%; } }
   .row::after {
     content: "";
     display: table;
@@ -197,6 +212,13 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        margin-right: 0;
+        margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -218,15 +240,14 @@ body {
   background-image: linear-gradient(to right bottom, white, red); }
   @media (max-width: 56.25em) {
     .section-book {
-      padding: 10 0 0 30rem; } }
+      padding: 10rem 0 30rem 0rem; } }
 
 .section-services {
   padding: 10rem 0 15rem 0;
-  background-color: #f4f7f6; }
-
-.services {
-  display: flex;
-  justify-content: center; }
+  background-color: #f4f7f6;
+  text-align: center;
+  position: relative;
+  margin: 0 auto; }
 
 .book {
   text-align: center;
@@ -239,3 +260,6 @@ body {
     padding: 6rem;
     background-color: white;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 90%; } }

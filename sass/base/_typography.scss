@@ -16,4 +16,8 @@
     line-height: 4rem;
     letter-spacing: 0.2rem;
     font-weight: 400;
+
+    @include respond(phone) {
+        line-height: 2.5rem;
+    }
 }

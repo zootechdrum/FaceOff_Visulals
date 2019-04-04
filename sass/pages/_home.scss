@@ -7,19 +7,22 @@
     background-image:linear-gradient(to right bottom, white, red);
 
     @include respond(tab-port) {
-        padding: 10 0 0 30rem;
+        padding: 10rem 0 30rem 0rem;
     }
 }
 
 .section-services {
     padding: 10rem 0 15rem 0;
     background-color: #f4f7f6;
+    text-align:center;
+    position:relative;
+    margin: 0 auto;
 }
 
-.services{
-    display:flex;
-    justify-content: center;
-}
+// .services{
+//     display:flex;
+//     justify-content: center;
+// }
 
 .book{
     text-align:center;
@@ -33,5 +36,9 @@
         padding: 6rem;
         background-color:white;
         box-shadow: 0 1.5rem 4rem rgba($black-color, .15);
+
+        @include respond(tab-port) {
+            width:90%;
+        }
     }
 }

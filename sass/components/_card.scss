@@ -2,6 +2,14 @@
     height: 40rem;
     background-color: $white-color;
     padding: 3rem;
+    display: inline-block;
+
+    &--mod {
+        margin-left:15.5rem;
+        @include respond(tab-port) {
+            margin-left: 0;   
+        }   
+    }
 
     &__heading {
         font-size:3.0rem;
