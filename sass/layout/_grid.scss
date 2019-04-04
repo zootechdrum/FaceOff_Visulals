@@ -30,7 +30,7 @@
             margin-bottom: $gutter-vertical-small;
         }
 
-        @include respond(tab-port) {
+        @include respond(phone) {
             width: 100% !important;
         }
     }

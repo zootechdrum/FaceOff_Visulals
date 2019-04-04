@@ -17,12 +17,12 @@ html {
   /*--Allows visually impaired users to chnage font size.*/
   font-size: 62.5%;
   zoom: 70%; }
-  @media (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
@@ -59,7 +59,7 @@ body {
   font-weight: 400; }
   @media (max-width: 37.5em) {
     .paragraph {
-      line-height: 2.5rem; } }
+      line-height: 3rem; } }
 
 .u-text-center {
   text-align: center !important; }
@@ -216,7 +216,7 @@ body {
       .row [class^="col-"] {
         margin-right: 0;
         margin-bottom: 6rem; } }
-    @media (max-width: 56.25em) {
+    @media (max-width: 37.5em) {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-2 {
