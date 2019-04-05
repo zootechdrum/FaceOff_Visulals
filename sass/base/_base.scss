@@ -10,7 +10,7 @@
 html {
     /*--Allows visually impaired users to chnage font size.*/
     font-size: 62.5%;
-    zoom:70%;
+    // zoom:70%;
 
     @include respond(tab-port) {
         font-size: 50%;
