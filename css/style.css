@@ -76,11 +76,9 @@ body {
   background-color: #fff;
   padding: 3rem;
   display: inline-block; }
-  .card--mod {
-    margin-left: 15.5rem; }
-    @media (max-width: 56.25em) {
-      .card--mod {
-        margin-left: 0; } }
+  @media (max-width: 56.25em) {
+    .card--mod {
+      margin-left: 0; } }
   .card__heading {
     font-size: 3.0rem;
     text-align: center;
