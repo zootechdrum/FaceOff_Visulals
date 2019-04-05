@@ -7,7 +7,7 @@
     background-image:linear-gradient(to right bottom, white, red);
 
     @include respond(tab-port) {
-        padding: 10rem 0 30rem 0rem;
+        padding: 10rem 0 20rem 0rem;
     }
 }
 
