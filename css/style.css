@@ -74,7 +74,7 @@ body {
 .card {
   height: 35rem;
   background-color: #fff;
-  padding: 3rem;
+  padding: 3%;
   display: inline-block; }
   .card__heading {
     font-size: 3.0rem;
