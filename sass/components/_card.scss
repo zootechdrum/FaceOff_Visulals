@@ -1,13 +1,14 @@
 .card {
     height: 40rem;
     background-color: $white-color;
-    padding: 3em;
+    padding: 3rem;
     display: inline-block;
 
     &--mod {
         margin-left:15.5rem;
         @include respond(tab-port) {
             margin-left: 0;   
+            padding: 3em;
         }   
     }
 
@@ -32,6 +33,9 @@
             text-align:center;
             font-size:2.0rem;
             padding:2rem;
+            @include respond(tab-port) {  
+                padding: 3em;
+            } 
 
             &:not(:last-child) {
                 border-bottom: 1px solid $black_color;
