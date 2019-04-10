@@ -72,8 +72,9 @@ body {
   padding: 3rem; }
 
 .card {
+  height: 100%;
   background-color: #fff;
-  padding: 3%;
+  padding: 2%;
   display: inline-block; }
   .card__heading {
     font-size: 3.0rem;
@@ -157,6 +158,15 @@ body {
     padding: 1rem 0;
     font-weight: 300; }
 
+.nav__sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.98);
+  height: 8rem;
+  z-index: 1; }
+
 .nav__logo {
   border-radius: 5px;
   width: auto;
@@ -178,7 +188,7 @@ body {
 .nav__main a:visited {
   padding: 8px 0;
   text-decoration: none;
-  color: black;
+  color: #000;
   text-transform: uppercase;
   font-size: 1.8rem;
   border-bottom: 2px solid transparent;
@@ -186,7 +196,7 @@ body {
 
 .nav__main a:hover,
 .nav__main a:active {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #000; }
 
 .row {
   max-width: 114rem;
