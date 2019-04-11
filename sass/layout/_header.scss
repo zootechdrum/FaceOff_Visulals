@@ -1,4 +1,57 @@
 .nav{
+    
+
+    &__mobleIcon {
+        display:none;
+        float: right;
+        margin-top:30px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    @include respond(phone) {
+        
+
+        &__logo {
+            border-radius: 25%;
+            height: 50px !important;
+            margin-left:20px;
+        }
+        &__mobleIcon{
+            display: inline-block;
+        }
+
+        &__main{
+            display: none;
+            float: left !important;
+            margin-top: 20px !important;
+            margin-left: 5px  !important;
+        }
+
+        &__main li{
+            display: block !important;
+            padding:10px;
+        }
+
+        &__main li a{
+            font-size: 18px !important;
+            margin-left: 40px;
+            padding:10px;
+            border:none !important;
+        }
+        &__sticky {
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            background: rgba(255, 255, 255, 0.98);
+            z-index: 1;
+    
+        }
+        
+    }
+
+
 
     &__sticky {
         position:fixed;
@@ -6,7 +59,6 @@
         left:0;
         width:100%;
         background: rgba(255, 255, 255, 0.98);
-        height:8rem;
         z-index: 1;
 
     }
@@ -22,7 +74,7 @@
     &__main{
         float:right;
         list-style: none;
-        margin-top:40px;
+        margin-top:2%;
     }
     &__main li{
         display: inline-block;

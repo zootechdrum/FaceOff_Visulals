@@ -29,11 +29,15 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     box-sizing: border-box;
+    margin-top: 8%;
 }
 
-.nav {
-    height: 10vh;
-}
 .headers {
     height: 90vh;
+}
+
+@include respond(phone) {
+    body {
+        margin-top: 0%;
+    }
 }
