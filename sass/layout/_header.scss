@@ -1,7 +1,7 @@
 .nav{
     
 
-    &__mobleIcon {
+    &__mobileIcon {
         display:none;
         float: right;
         margin-top:30px;
@@ -17,14 +17,15 @@
             height: 50px !important;
             margin-left:20px;
         }
-        &__mobleIcon{
+        &__mobileIcon{
             display: inline-block;
+            margin-right: 2%;
         }
 
         &__main{
             display: none;
             float: left !important;
-            margin-top: 20px !important;
+            margin-top: 60px !important;
             margin-left: 5px  !important;
         }
 
@@ -74,7 +75,8 @@
     &__main{
         float:right;
         list-style: none;
-        margin-top:2%;
+        margin-top:3%;
+        margin-right: 3%;
     }
     &__main li{
         display: inline-block;
