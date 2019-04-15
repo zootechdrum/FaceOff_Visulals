@@ -52,6 +52,12 @@ body {
   letter-spacing: 10px;
   padding-bottom: 5rem; }
 
+.heading-second {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-bottom: 5rem; }
+
 .paragraph {
   font-size: 2rem;
   line-height: 4rem;
@@ -275,6 +281,9 @@ body {
     width: calc(2 *  ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc(3 *  ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.section-gallery {
+  text-align: center; }
 
 .section-about {
   margin-top: 11vh;
