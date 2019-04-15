@@ -286,8 +286,8 @@ body {
   text-align: center; }
 
 .section-about {
-  margin-top: 11vh;
-  padding: 5rem 0 15rem 0; }
+  padding: 5rem 0 15rem 0;
+  background-color: #f4f7f6; }
 
 .section-book {
   padding: 10rem 0 30rem;

@@ -1,11 +1,11 @@
 
 .section-gallery {
-    text-align:center;
+    text-align:center; 
 }
 
 .section-about{
-    margin-top:11vh;
     padding: 5rem 0 15rem 0;
+    background-color: $lightGray-color;
 }
 
 .section-book {
@@ -19,7 +19,7 @@
 
 .section-services {
     padding: 10rem 0 15rem 0;
-    background-color: #f4f7f6;
+    background-color: $lightGray-color;
     text-align:center;
     position:relative;
     margin: 0 auto;
