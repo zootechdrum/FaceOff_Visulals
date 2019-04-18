@@ -4,7 +4,8 @@
   "description": "faceOff_Visuals",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss public/css/style.css",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "node-sass": "^4.11.0"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "jquery": "^3.3.1",
     "live-server": "^1.2.1"
   }
